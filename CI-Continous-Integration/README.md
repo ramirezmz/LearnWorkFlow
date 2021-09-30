@@ -151,6 +151,44 @@ Testes automatizados
 
 ![git merge](images/img23.png)
 
+## ETAPAS DO BUILD
+
+Se nós queremos fazer uma integração continua, nós devemos tratar de automatizar tudo que pudermos, pois nos ajuda a economizar tempo.
+
+![](./images/img24.png)
+
+Tudo deveria ser possivel executando um comando só...
+- Build a cada commit
+- Tudo automatizado/single commands
+- Build sem depender da IDE
+- Tudo está no repositório
+
+**Build rápidos/Feedback rápido**
+
+- Otimize o build, métricas ajudam:
+	- Verifique a fase testes e analise do código.
+	- Verifique ordem dessas fases
+	- Verifique a infra dessas fases
+	- Use cache
+- Use staged build/pipeline (light build, heavey build)
+- Regra: "TEN- Minute Build"
+
+
+## Corrija builds quebrados imediatamente
+
+"Nobody has a higher priority task than fixing the build"
+-- Kent Beck
+
+![](./images/img25.png)
+
+## Manifesto Ágil
+
+"Working software over comprehensive documentation"
+
+"Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."
+
+
+
 **Fontes usadas**
 
 - Livro: Continuous Integration, de Paul M. Duvall
